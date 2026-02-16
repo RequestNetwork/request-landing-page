@@ -11,8 +11,10 @@ const Footer = () => (
       <div className="rn-footer-bottom">
         <span className="rn-footer-legal">&copy; 2026 Request Network. All rights reserved.</span>
         <ul className="rn-footer-links">
-          <li><Link to="/terms">Terms of Service</Link></li>
-          <li><Link to="/cookies">Cookie Policy</Link></li>
+          <li><Link to="/legal-notice">Legal notice</Link></li>
+          <li><Link to="/privacy-policy">Privacy policy</Link></li>
+          <li><Link to="/cookie-policy">Cookie Policy</Link></li>
+          <li><Link to="/api-terms">API T&C</Link></li>
         </ul>
         <div className="rn-footer-social">
           <a href="https://x.com/RequestNetwork" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
